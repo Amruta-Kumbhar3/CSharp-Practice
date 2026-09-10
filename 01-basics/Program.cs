@@ -21,3 +21,11 @@ int num1 = 25;
 double num2 = 25.5;
 double result = num1+num2;
 Console.WriteLine(result);
+
+// Constants
+/* A const value cannot be changed after it's declared. */
+
+const int maxScore = 100;
+Console.WriteLine(maxScore);
+
+// maxScore = 150;  // this would cause a compile error if uncommented
