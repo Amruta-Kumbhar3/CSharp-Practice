@@ -4,15 +4,18 @@
 
 int a = 10, b = 5;
 int add = a+b;
-int sub = a-b;
-int mul = a*b;
-double div = (double)a/b;
-int mod = a%b;
-
 Console.WriteLine("addition of a & b is: "+add);
+
+int sub = a-b;
 Console.WriteLine("substraction of a & b is: "+sub);
+
+int mul = a*b;
 Console.WriteLine("multiplication of a & b: "+mul);
+
+double div = (double)a/b;
 Console.WriteLine("division of a & b is: "+div);
+
+int mod = a%b;
 Console.WriteLine("mode of a & b is: "+mod);
 
 /*Fix the division issue on purpose: show both the "wrong" way (int / int, loses decimal)
